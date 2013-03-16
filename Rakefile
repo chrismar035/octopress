@@ -7,8 +7,8 @@ require "stringex"
 ssh_user       = "presenc2@presencesolutioninnovations.com"
 ssh_port       = "22"
 document_root  = "~/public_html/octopress/"
-rsync_delete   = true
-rsync_args     = ""  # Any extra arguments to pass to rsync
+rsync_delete   = false
+rsync_args     = "--chmod=a+rwx,g-w,o-w"  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
