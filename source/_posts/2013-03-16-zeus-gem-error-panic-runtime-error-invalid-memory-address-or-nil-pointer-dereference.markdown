@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zeus gem error: "panic: runtime error: invalid memory address or nil pointer dereference""
+title: "Zeus gem error: \"panic: runtime error: invalid memory address or nil pointer dereference\""
 date: 2013-02-12 10:32
 comments: true
 categories: [HowTo, Self-Reference]

@@ -15,20 +15,20 @@ Here's how it all works. When you install the Dropox client software on your com
 Back to business, I know what you are thinking, "All these files are in one Dropbox folder (and subfolders). My config file needs to be in my home directory. I still have to copy from my Dropbox to my home." Well, let's let the computer do the copying. Actually, let's not even waste time and space copying. Let's create a symlink to make the config files appear to be in your home folder but actually be stored in the Dropbox folder.
 
 First, open a terminal, navigate to the Dropbox folder and create a new subfolder; I called mine 'configs.'
-<code>
-$ cd ~/Dropbox
-$ mkdir configs
-$ cd configs
-</code>
+
+    $ cd ~/Dropbox
+    $ mkdir configs
+    $ cd configs
+
 Now, let's move the config file from the home folder into the Dropbox/configs folder and navigate to the home folder.
-<code>
-$ mv ~/.ttytterrc ~/Dropbox/configs/.ttytterrc
-$ cd ~/
-</code>
+
+    $ mv ~/.ttytterrc ~/Dropbox/configs/.ttytterrc
+    $ cd ~/
+
 Here's the magic. We'll create a symlink (like a shortcut in Windows) which will make it appear that the file is in your home directory, but Dropbox will still keep track of it.
-<code>
-$ ln -s ~/Dropbox/configs/.ttytterrc ~/.ttytterrc
-</code>
+
+    $ ln -s ~/Dropbox/configs/.ttytterrc ~/.ttytterrc
+
 Rough Spot: If you get a file exists error, the link will not overwrite an existing file. Remove the file from where you are creating the link into (the home dir in our case).
 
 Do this on all your computers, then you can edit the file directly from my home directory on any computer and the changes will be automatically propagated to all my other computers instantaneously. 
