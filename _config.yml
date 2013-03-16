@@ -7,7 +7,7 @@ title: ChrisMar035
 subtitle: Adventures in Web Programming
 author: Chris Marshall
 simple_search: http://google.com/search
-description: Chris is a Web Programmer living in Cuyahoga Falls, OH. He likes working with Ruby. He's a huge fan of git and has been recently dabbling with Android apps.
+description: Chris is 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -64,7 +64,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 
 # Github repositories
 github_user: chrismar035
-github_repo_count: 10
+github_repo_count: 3
 github_show_profile_link: true
 github_skip_forks: true
 
