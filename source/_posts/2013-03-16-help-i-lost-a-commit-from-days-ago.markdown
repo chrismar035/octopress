@@ -6,7 +6,16 @@ comments: true
 categories: [git, HowTo]
 ---
 
-Oh no! I'm screwed! Better try to remember what work I did and recreate it... :( J/K! This is git! Of course there's a slick way to recover what you lost. Here's my situation: I was working on a feature branch happily coding away. Finished the feature, rebased it quickly to fix a typo and then merged it into master. All's well in my world. However, that was days ago and today I just realized that I accidentally removed one of my commits from the feature branch while I was working on it. No worries. Here's how I got the commit back with relative ease.
+Oh no! I'm screwed! Better try to remember what work I did and recreate
+it... :( J/K! This is git! Of course there's a slick way to recover what
+you lost. Here's my situation: I was working on a feature branch happily
+coding away. Finished the feature, rebased it quickly to fix a typo and
+then merged it into master. All's well in my world. However, that was
+days ago and today I just realized that I accidentally removed one of my
+commits from the feature branch while I was working on it. No worries.
+Here's how I got the commit back with relative ease.
+
+<!--more-->
 
 First, let me give you a lay of the land. I use the incredible git lg alias.
 
