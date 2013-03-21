@@ -8,7 +8,11 @@ categories: HowTo
 
 Here's my Problem:
 My website sends text files to a partner's site via FTP. Our partner site sends us the results of their processing the file in an e-mail. This e-mail is a the direct output from their processing script. Or, the relevant details are buried in a bunch of garbled text. 
+
+{% render_partial ads/ads1.html %}
+
 <!-- more -->
+
 My Solution:
 I first looked at message piping, but my hosting provider doesn't provide an easy way to do this.
 Then I found <a href='http://www.phpclasses.org/browse/package/2.html' title='PHP Classes: POP3 e-mail client'>this PHP class</a> from PHP classes, which handles the interactions with the server. You do have to create an account with PHP classes to download the files. If you e-mail me directly, I could send them to you.
@@ -69,5 +73,5 @@ Happy Parsing!!
 
 --Chris
 
-<!--Ads1-->
+{% render_partial ads/ads2.html %}
 

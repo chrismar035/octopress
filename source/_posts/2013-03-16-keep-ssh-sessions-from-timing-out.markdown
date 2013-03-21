@@ -18,3 +18,7 @@ adding the following:
 The number is the number of seconds to send the small keep alive which
 keeps the connection open. Ubuntu Blog suggests changing it from 5 to
 240 or 300 (4 or 5 minutes).
+
+-- Chris
+
+{% render_partial ads/ads2.html %}

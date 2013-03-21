@@ -15,6 +15,8 @@ days ago and today I just realized that I accidentally removed one of my
 commits from the feature branch while I was working on it. No worries.
 Here's how I got the commit back with relative ease.
 
+{% render_partial ads/ads1.html %}
+
 <!--more-->
 
 First, let me give you a lay of the land. I use the incredible git lg alias.
@@ -59,3 +61,5 @@ Nice! Now, notice that the SHA1 changed from what you copied out of the reflog. 
 Nice work! Push and have a beer!! :)
 
 -- Chris
+
+{% render_partial ads/ads2.html %}

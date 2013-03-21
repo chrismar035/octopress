@@ -9,6 +9,9 @@ categories: [HowTo]
 Today, I'm going to add some plugins and scripts to make better use of Vim. I have not started this project and I will be updating this post throughout the day with my finds and experiences.
 
 I generally use Vim to code web applications. My site at work run on PHP and at home I'm working with Ruby on Rails. So, I'll be looking for something to specifically help with that, but who knows what I'll find.
+
+{% render_partial ads/ads2.html %}
+
 <!--more-->
 # .vimrc
 
@@ -52,3 +55,7 @@ This pipe in the above example is the cursor position after the last l in lionel
 >  Check out [my public vim configs repo](https://github.com/chrismar035/vim_configs) for more info!
 
 See ya Soon!
+
+-- Chris
+
+{% render_partial ads/ads2.html %}

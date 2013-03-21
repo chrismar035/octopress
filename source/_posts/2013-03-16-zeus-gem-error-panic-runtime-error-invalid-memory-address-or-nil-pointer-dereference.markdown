@@ -15,3 +15,7 @@ It was easy to fix, just run a bundle install to add the missing gems:
 <pre lang='bash'>$ bundle install</pre>
 
 Easy as that. Hope this helps someone else!
+
+-- Chris
+
+{% render_partial ads/ads2.html %}

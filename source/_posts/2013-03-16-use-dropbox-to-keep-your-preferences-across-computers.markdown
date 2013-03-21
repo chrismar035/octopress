@@ -7,7 +7,11 @@ categories: [HowTo]
 ---
 
 Sometimes it can be kind of painful to discover a cool new setting or mode for on of your favorite programs. For instance, I use <a href='www.floodgap.com/software/ttytter/'>TTYtter</a>, a terminal based Twitter client. A few weeks into using it, I discovered it had ReadLine support for tab auto-completion of @usernames, in-line editing of posts and command history (up key). Awesome right? I know. Except, now I need to change my .ttytterrc file on my laptop, home computer, work computer, everywhere. Also, how do I get it there? USB drive, e-mail to myself, browse the network, etc. Being geeks, we don't want to go through all that. 
+
+{% render_partial ads/ads1.html %}
+
 <!--more-->
+
 Then I discovered <a href="https://www.dropbox.com/referrals/NTc0MjYxNjc5">Dropbox</a> (that link is a referral link, <a href="http://dropbox.com">here's the regular homepage</a>). Not only is Dropbox a free 2GB of cloud storage for backing up your much needed files, but the really cool thing about Dropbox is that it <strong>automatically detects when files change and syncs them across all of your computers</strong>. Think about configuration files and read that again. Discover a new mode in any program with a config file and BAM! every computer you use has that mode enabled. The sync works in all directions so it doesn't matter which computer you make the change on, every computer gets it. Seems perfect, right?
 
 Here's how it all works. When you install the Dropox client software on your computer, it will create a Dropbox folder with all your stuff in it. Add, delete or edit any file in this folder and Dropbox will sync it up to their servers, plus download the changes to any other computer running the Dropbox client with your account. It's kind of cool to have your desktop and laptop running next to each other and watch them download the changes instantly. 
@@ -41,3 +45,7 @@ Here are some other ideas for this technique which I haven't tried, but might be
 <li>Flat data files
 </ul>
 If you have any more or try one of these, let me know in the comments!
+
+-- Chris
+
+{% render_partial ads/ads2.html %}

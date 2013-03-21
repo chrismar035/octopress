@@ -11,6 +11,9 @@ is a huge discovery. If you run Ubuntu, the flash player for Pandora
 can be a pain in the ass to install. Plus, on my netbook, the flash
 plugin for Chrome usually eats about 40-55% CPU constantly. A console
 client for Pandora will resolve all these issues.
+
+{% render_partial ads/ads1.html %}
+
 <!--more-->
 However, the install instructions in the readme at the
 [PianoBar Github Repo]('http://github.com/PromyLOPh/pianobar') are very
@@ -134,3 +137,7 @@ To automatically login, add the following two lines
 I also found that changing the "Loving Song" keyboard short cut from + to = worked out better, since I didn't have to press Shift+=.
 
     act_songlove = =
+
+-- Chris
+
+{% render_partial ads/ads2.html %}

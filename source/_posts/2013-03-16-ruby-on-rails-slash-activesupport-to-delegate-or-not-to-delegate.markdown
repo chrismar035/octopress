@@ -7,7 +7,11 @@ categories: [HowTo, RubyOnRails, Self-Reference]
 ---
 
 This is an account of my adventure with delegation from problem to apparent solution to bug in ActiveSupport to you're doing it wrong! 
+
+{% render_partial ads/ads1.html %}
+
 <!--more-->
+
 <a href='#tldr'>TL;DR</a>
 
 Delegation is used when you want to forward a method call from on class/model to an associated class/model. The <a href="http://guides.rubyonrails.org/active_support_core_extensions.html#method-delegation" title="Ruby on Rails Guide - Delegation">Ruby on Rails Guides</a> use the example of a User model which has a Profile associated with it. This is a great example with a little subtlety which I overlooked. If you aren't famaliar with delegation, go ahead and get yourself learned. I won't wait for you though. This is text just come back when you're up to speed.
@@ -130,3 +134,5 @@ Too easy...
 
 
 -- Chris
+
+{% render_partial ads/ads2.html %}

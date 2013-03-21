@@ -13,6 +13,8 @@ have to push a big hot fix. It has to get in immediately. It can't wait
 for writing correct tests or other better abstractions and
 implementations. What to do? What to do?
 
+{% render_partial ads/ads1.html %}
+
 <!--more-->
 
 Well, there's the common way of hacking as fast as you can until you're
@@ -101,3 +103,5 @@ your name at the duct tape-y hacks you introduced to the code base.
 That deserves a beer!
 
 -- Chris
+
+{% render_partial ads/ads2.html %}

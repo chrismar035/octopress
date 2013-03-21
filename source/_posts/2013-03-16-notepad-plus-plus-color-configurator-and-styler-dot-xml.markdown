@@ -7,7 +7,11 @@ categories: [HowTo, Self-Reference]
 ---
 
 Before I start talking about colors, let's talk font. <a href='http://www.microsoft.com/downloads/details.aspx?familyid=22e69ae4-7e40-4807-8a86-b3d36fab68d3&displaylang=en'>Consolas</a> That's all you need to know. By far the best programming font. Get it. Use it. Love it. 
+
+{% render_partial ads/ads1.html %}
+
 <!--more-->
+
 Recently I started learning Ruby on Rails and I found <a href='http://railscasts.com/'>RailsCasts</a> with a ton of Rails focused screencasts. I believe he (they?) use <a href='http://macromates.com/'>TextMate</a> for mac. I hadn't really thought much about color in my code before watching some of these screencasts. But, it actually helps, a lot! I use Notepad++ in Windows and they have a great styling system. You can use the in program Style Confirurator or you can directly modify the XML style sheet.
 <br>
 <h1>Style Configurator</h1>
@@ -31,3 +35,5 @@ The Style Configurator is a dialog within Notepad++ accessible through the Setti
 <p>I also put <a href='http://gist.github.com/272115'>my personal stylers.xml</a> as a gist on github. Feel free to fork it. 
 <p>If you have any other Notepad++ styling tips, comment below!
 <p>--Chris
+
+{% render_partial ads/ads2.html %}
