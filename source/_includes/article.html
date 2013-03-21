@@ -23,4 +23,10 @@
 	{% if site.disqus_short_name and site.disqus_show_comment_count == true %}
 		<div class="comments"><a href="{{ root_url }}{{ post.url }}{{ page.url }}#disqus_thread">Comments</a></div>
 	{% endif %}
+
+  {% unless index %}
+    <br>
+    <br>
+    {% render_partial ads/sidebar.html %}
+  {% endunless %}
 </div>
