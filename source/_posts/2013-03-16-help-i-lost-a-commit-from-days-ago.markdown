@@ -19,6 +19,7 @@ Here's how I got the commit back with relative ease.
 
 <!--more-->
 
+<a id='lg'></a>
 First, let me give you a lay of the land. I use the incredible git lg alias.
 
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
