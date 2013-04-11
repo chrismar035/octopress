@@ -3,10 +3,30 @@ layout: default
 single: true
 ---
 
-<article class="post">{% include article.html %}</article>
+<article class="post">
+{% include article.html %}
+<div class='entry-content'>
+<hr>
+<div class='flattr'>
+  <h3>Like this post? Flattr me!</h3>
+  <a class='FlattrButton' style="margin-left:25px;display:none"
+    title='Flattr me!'
+    data-flattr-uid='chrismar035'
+    data-flattr-tags='text, opensource'
+    data-flattr-category='text'
+    {% if post.external-url %}
+      href="{{ post.external-url }}"
+    {% else %}
+      href="{{ root_url }}{{ post.url }}"
+    {% endif %}
+    >Like this post? Flattr me by clicking here!</a>
+</div>
+</div>
+</article>
 {% unless page.sharing == false %}
 	{% include post/sharing.html %}
 {% endunless %}
+
 {% if site.disqus_short_name and page.comments == true %}
 <section id="comment">
     <h2 class="title">Comments</h2>
