@@ -29,8 +29,6 @@ clever, built-in way to organize and automate the branch cleanup process.
 It is perfectly suited for making changes based on pull request feedback.
 It's called autosquash.
 
-{% render_partial ads/ads1.html %}
-
 <!-- more -->
 
 Here was a typical pull request workflow:
