@@ -86,8 +86,6 @@ alias](/2013/02/08/help-i-lost-a-commit-from-days-ago/#lg))
 Now let's say you get a review comment on the commit for the tests
 ('Ensure ...') which asks to add a test for a missed edge case.
 
-{% render_partial ads/ads2.html %}
-
 So we will code up our edge case fix and as we commit, we'll add the
 flag to specify what we ultimately will do with the commit.
 
