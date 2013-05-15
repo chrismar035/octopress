@@ -33,3 +33,7 @@ article.archive-article-format { box-shadow: none; padding: 0; }
     margin-bottom:2em;
   }
 }
+
+// Float and pad images
+.entry-content img.left { float:left; padding:1.5em; }
+.entry-content img.right { float:right; padding:1.5em; }
