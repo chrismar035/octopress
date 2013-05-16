@@ -41,6 +41,8 @@ Coming back to the topic of this post. These anti-patterns and less than best-
 practices extend to commit messages as well. Below I've listed some of the dos
 and don'ts which I have started to use in my everyday committing.
 
+<!-- more -->
+
 ## What I like
 
 These words I often use to start commit messages which make some common
