@@ -12,24 +12,27 @@ natural gravity in my universe toward mobile apps and the power of the app plus
 server backend paradigm. Naturally, I wanted to build my own app and really see
 what it is like on the other side of the API.
 
+{% img left /images/android_first/car_icon.webp 150 150 Car Payment Calculaor %}
 As with any new platform, language or environment, I read up extensively on the
 Android ecosystem, poured over countless resources on design princiles and best
 practices--NOT. I jumped right in. Since I was shopping for a new car at the
 time, I whipped up a quick and dirty [Car Payment
 Calculator][6].  I mostly wanted to see the whole process of building an app
 and deploying it to the Anroid market. I must say the process is extremely
-simple and straightforward.
-{% img left /images/android_first/car_icon.webp 150 150 Car Payment Calculaor %}
+simple and straightforward. However, the car payment app doesn't really do
+anything...
+<br/>
 
-However, the car payment app doesn't really do anything. A few form fields, a
-button and some quick math. No networking, no server-side, no authorization, no
-fun. So, I set out on my second app: a push notification service; something like
-[Boxcar][7] or [Notify My Android][9]. As an Android user with a tablet and a
-phone, it's really annoying to get all my notifications twice. I could  also
-scratch my own itch with some home automation notifications as well as
-external services. But most importantly, I knew this was something that I
-could actually build. This post isn't about Push Something (that will come
-later), so enough about that.
+<!-- more -->
+
+A few form fields, a button and some quick math. No networking, no
+server-side, no authorization, no fun. So, I set out on my second app: a push
+notification service; something like [Boxcar][7] or [Notify My Android][9]. As
+an Android user with a tablet and a phone, it's really annoying to get all my
+notifications twice. I could  also scratch my own itch with some home
+automation notifications as well as external services. But most importantly, I
+knew this was something that I could actually build. This post isn't about
+Push Something (that will come later), so enough about that.
 
 I followed the [Google+ Sign-in for Android tutorial][8] and then the [GCM
 setup tutorial][5] and finally a great [ListView tutorial][4]. Now I know that
