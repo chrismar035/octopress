@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Go Concurrency by example"
+title: "Go Concurrency by Example"
 date: 2014-06-14 11:55
 comments: true
 categories: golang
 ---
 
-# Go Concurrency by example
+# Go Concurrency by Example
 
 Recently I've been dabling in Go. I was lured in by the lore of a purposefully
 simple language with amazing concurrency features. While that is true, I have to
