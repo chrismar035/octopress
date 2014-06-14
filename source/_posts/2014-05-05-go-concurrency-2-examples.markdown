@@ -22,6 +22,8 @@ learn by doing. I found this method very compelling and came up with two
 different methods for handling concurrency in Go; each suited for slightly
 different use cases.
 
+<!-- more -->
+
 ## Primer
 
 If you aren't familiar with concurrency in Go, this section is for you. I will
