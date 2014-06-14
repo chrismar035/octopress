@@ -6,8 +6,6 @@ comments: true
 categories: golang
 ---
 
-# Go Concurrency by Example
-
 Recently I've been dabling in Go. I was lured in by the lore of a purposefully
 simple language with amazing concurrency features. While that is true, I have to
 admit that I stayed around for the documentation. [Golang.org](http://golang.org)
