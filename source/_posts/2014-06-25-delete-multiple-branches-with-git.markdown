@@ -11,6 +11,8 @@ workflow, you can end up with a lot of branch laying around. I've been trying to
 optimize my branch cleanup workflow for a while now and had a big breakthrough
 recently.
 
+<!-- more -->
+
 Before we get to that, I must mention [git-sweep](http://lab.arc90.com/2012/04/03/git-sweep/).
 It has been revolutionary to keeping branches (both locally and remote) clean.
 If you care at all about the output of `git branch`, install that now.
