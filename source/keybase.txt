@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/chrismar035
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://chrismar035.com
+  * I am chrismar035 (https://keybase.io/chrismar035) on keybase.
+  * I have a public key with fingerprint 1710 2A86 50B7 CD4C 6325  2B9B 81D4 F79F BDFA 7EAF
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "17102a8650b7cd4c63252b9b81d4f79fbdfa7eaf",
+            "host": "keybase.io",
+            "key_id": "81d4f79fbdfa7eaf",
+            "uid": "bcc33444af4012d2b4740f1f6909d400",
+            "username": "chrismar035"
+        },
+        "service": {
+            "hostname": "chrismar035.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1405435167,
+    "expire_in": 157680000,
+    "prev": "4bb879c2989b504558e75a2f29a62ebe6c25f9ed0f65106c777e4a342d7d0caa",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMTYeOX7/L2/6tYznj7wI4kh+KitSrVSUn5KpZJVtVJ2KphKy8xLTy0q
+KMrMK1GyUjI0NzQwSrQwMzVIMk9OMUk2MzYyNUqyTLIwTDFJM7dMS0pJSzRPTUxT
+0lHKyC8G6QAak5RYnKqXmQ8UA3LiM1OAoljUl4IlkpKTjY1NTEwS00wMDI1SjJJM
+zE0M0gzTzCwNLFNMDAxACotTi/ISc1OBqpMzijKLcxOLDIxNlWp1lIASZZnJqSBn
+g2zHVKSXnJ8LNKGgKL8kPzk/ByiZUVJSYAXSW1JZAFJcnpoUDzUmPikzLwXoe6CG
+stSi4sz8PCUrQ6DK5JJMkLmGJgamJsamhmbmOkqpFQWZRanxmSAVpuZmFgZAALIm
+tQxopElSkoW5ZbKRpYVlkqmBiampRaq5aaJRmpFloplRalKqWbKRaZplaopBmpmp
+oYFZsrm5eapJorGJUYp5ikFyYqISyGOFeflKViZAZyamA40szkzPSywpLUpVquXq
+ZJRhYWBkYmBjZQJFIAMXpwAsWgWPsf93YOL1lJNexlHOoPmj1bM+/8k2o5NZ2/lz
+0vXYdsfM/fal8+HhZTV7ouaeMGcv3Nr64+7v1kqr2ZZvQwsE9trx6Fe0xL9bHXl5
+5vf6/MPN+x15szRqHe61te3LYbtouGxPW0ZdjXPBdFX9tp7PG2QmtHBIc/UmLuS4
++sBpEn95aEHtUf6lhfOO+wfqbpAp1j6Vtu3mnkXavXv4trPt9WKuFbnqlVB76XXM
+9oeq74Rvl29IsYvfVNmnefLu4l7RFduFZ0Y7X24MKXUNesa/sWrzydTPdpolm5Zs
+WLH8gtOp2ymn4nmmHdSN3vS2/5O+7Nxzs3TdKk9Xf/jUfvVUZ0D+Pj3Zb8fX//iR
+f5+98SkA
+=U+Nt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chrismar035
+
+==================================================================
+
