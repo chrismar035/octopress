@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful command line expansions"
-date: 2014-08-17 10:05
+date: 2014-08-25 10:05
 comments: true
 categories: Command-Line
 ---
