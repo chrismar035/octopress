@@ -24,6 +24,9 @@ mv: cannot move `...' to `...': Permission denied
 $ sudo !!
 </pre>
 
+Learn more about bang-bang on [episode 32 of sysadmin
+casts](https://sysadmincasts.com/episodes/32-cli-monday-history).
+
 Expanding on this concept, how about only part of the previous command? The
 `!$` history expansion expands to the last argument (or token) from the previous
 command. Working off the previous example, if we now want to edit that freshly
@@ -62,3 +65,7 @@ $ git checkout -b features/laser-sharks
 
 > ZSH power tip: Tapping `tab` with any of these expansions in ZSH will expand
   them inline to preview before executing.
+
+Happy history-ing!  
+
+-- Chris
