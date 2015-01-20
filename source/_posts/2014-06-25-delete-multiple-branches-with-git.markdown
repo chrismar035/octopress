@@ -13,6 +13,11 @@ recently.
 
 <!-- more -->
 
+__UPDATE:__ I now use a [shell
+script](https://github.com/pengwynn/dotfiles/blob/master/bin/git-sweep)
+which has the meat of the git-sweep functionality. Thanks to @pengwynn
+for letting me steal that.
+
 Before we get to that, I must mention [git-sweep](http://lab.arc90.com/2012/04/03/git-sweep/).
 It has been revolutionary to keeping branches (both locally and remote) clean.
 If you care at all about the output of `git branch`, install that now.
